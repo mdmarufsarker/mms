@@ -79,7 +79,7 @@ main proc
 
     n1:
         mov ah, 2
-        mov dl, cl
+        mov dl, bl
         int 21h
 
         jmp endoffile
